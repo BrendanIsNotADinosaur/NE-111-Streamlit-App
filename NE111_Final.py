@@ -145,7 +145,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.title("📊 Histogram Distribution Fitter")
+st.title("Histogram Distribution Fitter")
 st.markdown(
     """
 Upload or type in data, fit several probability distributions, 
@@ -154,7 +154,7 @@ and explore both automatic and manual fitting.
 )
 
 # Sidebar for data input
-st.sidebar.header("1️⃣ Data input")
+st.sidebar.header("Data input")
 
 st.sidebar.markdown("**Option A:** Paste numbers (comma / space / newline separated)")
 text_data = st.sidebar.text_area(
@@ -200,7 +200,7 @@ else:
         source = "Typed data"
 
 if data is None:
-    st.info("👈 Enter data in the sidebar (typed or CSV) to get started.")
+    st.info("Enter data in the sidebar (typed or CSV) to get started.")
     st.stop()
 
 # Basic info about data
@@ -247,7 +247,7 @@ available_distributions = {
     "Triangular (triang)": stats.triang,
 }
 
-tab_auto, tab_manual = st.tabs(["⚙️ Automatic fitting", "🎛 Manual fitting"])
+tab_auto, tab_manual = st.tabs(["Automatic fitting", "Manual fitting"])
 
 # ------------------ Automatic fitting ------------------ #
 with tab_auto:
