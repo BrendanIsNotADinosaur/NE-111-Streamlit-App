@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Nov 17 14:37:28 2025
-
-@author: bdong
-"""
 
 import re
 
@@ -14,6 +7,13 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from scipy import stats
 
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 17 14:37:28 2025
+
+@author: bdong
+"""
 
 # ------------------ Helper functions ------------------ #
 
