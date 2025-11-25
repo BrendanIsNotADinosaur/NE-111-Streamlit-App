@@ -1,1 +1,1 @@
-renumpypandasmatplotlibstreamlitscipy
+numpypandasmatplotlibstreamlitscipy
